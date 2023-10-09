@@ -1,0 +1,84 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+}
+
+#head .nav .nav-link.active,
+.nav-produtos .nav-link.active,
+.nav-produtos .nav-link.active:hover {
+    background-color: rgb(49, 128, 100);
+    color: aliceblue;
+}
+
+.nav-produtos .nav-link:hover,
+.links {
+    color: rgb(49, 128, 100);
+}
+
+#head .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: aliceblue;
+}
+
+.navbar-toggler {
+    background-color: rgb(49, 128, 100);
+}
+
+.title-text,
+.btn {
+    font-family: 'Inconsolata', monospace;
+    color: black;
+}
+
+.colored-text {
+    font-family: 'Dela Gothic One', cursive;
+    color: aquamarine;
+    font-size: 30px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.btn {
+    background-color: rgb(49, 128, 100);
+    color: aliceblue;
+}
+
+.btn:hover {
+    background-color: rgb(49, 128, 100);
+    color: black;
+}
+
+#produto {
+    background-color: rgb(211, 193, 193);
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+    .mapa iframe {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-item img {
+        height: 380px;
+    }
+    .mapa iframe {
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapatos Linods</title>
+    <link rel="icon" href="/images/shoe-running-icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="head">
+        <div class="container">
+            <h1 class="navbar-brand m-0 color-white">Sapatos<span class="colored-text">Linods<i class="bi bi-person-walking"></i></span></h1>
+            <button data-bs-toggle="collapse" data-bs-target="#navegador" class="navbar-light navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="navegador">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#inicio" class="nav-link">
+                            <i class="bi bi-arrow-up"></i>
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#historia" class="nav-link">
+                            <i class="bi bi-book me-1"></i>
+                            Historia
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-shop"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contatos" class="nav-link">
+                            <i class="bi bi-telephone"></i>
+                            Contactos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#head" data-bs-smooth-scroll="true">
+        <section id="inicio">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/pexels-jens-mahnke-1153838.jpg" alt="Foto Sneakers">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/pexels-mstudio-1240892.jpg" alt="Foto Sneakers">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/pexels-pixabay-267320.jpg" alt="Foto Sneakers">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/pexels-shane-aldendorff-786003.jpg" alt="Foto Sneakers">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/pexels-vova-kras-2847037.jpg" alt="Foto Sneakers">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+        <section>
+            <div class="pt-5 pb-5">
+                <div class="container" id="historia">
+                    <div class="row">
+                        <h2 class="title-text text-center">A Historia</h2>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="carousel slide" data-bs-ride="carousel" id="carousel-2">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="3000">
+                                        <img src="images/history/pexels-bella-zhong-3447405.jpg" alt="Foto Sapateiro">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="images/history/pexels-dmitry-demidov-3801349.jpg" alt="Foto Sapateiro">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="images/history/pexels-gül-işık-3084342.jpg" alt="Foto Sapateiro">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="images/history/pexels-plato-terentev-5821946.jpg" alt="Foto Sapateiro">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel-2" class="active" data-bs-slide-to="0"></button>
+                                    <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="1"></button>
+                                    <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="2"></button>
+                                    <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="3"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 mt-3 mt-md-0">
+                            <h3 class="title-text text-center fs-3">
+                                Como começou:
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum perferendis unde hic, ea aspernatur beatae qui corporis quaerat tempore iste reiciendis illum incidunt tempora ipsum quibusdam adipisci aut animi!
+                            </p>
+                            <h3 class="title-text text-center fs-3">
+                                Como vai:
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus sit quidem exercitationem voluptates ab veritatis accusamus voluptatem aliquid, nisi pariatur repellat, libero mollitia quasi? Aliquam necessitatibus ullam deserunt cum culpa.
+                            </p>
+                            <h3 class="title-text text-center fs-3">
+                                Objetivos:
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quaerat voluptas quis accusantium magnam a dolorem aliquam enim officiis impedit deserunt dolor dolorum dignissimos corporis aliquid aspernatur, cum autem molestias?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produto">
+            <div class="pt-5 pb-5">
+                <div class="container" id="produtos">
+                    <div class="row">
+                        <h2 class="title-text text-center">Produtos</h2>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <aside class="col-md-2 mb-3">
+                            <nav class="nav nav-pills flex-column nav-produtos">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sapatos-festivos" class="fw-bold text-start nav-link title-text active">Sapatos Festivos</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sneakers" class="fw-bold text-start nav-link title-text">Sneakers</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#salto-alto" class="fw-bold text-start nav-link title-text">Salto Alto</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#chinelos" class="fw-bold text-start nav-link title-text">Chinelos</button>
+                            </nav>
+                        </aside>
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="sapatos-festivos">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sapatos festivos/pexels-ahmed-anwar-1122605.jpg" alt="Sapato festivo">
+                                            <h5 class="fw-bold pt-1">Sapato Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sapatos festivos/pexels-lukas-292999.jpg" alt="Sapato festivo">
+                                            <h5 class="fw-bold pt-1">Sapato Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sapatos festivos/pexels-pavel-danilyuk-7119090.jpg" alt="Sapato festivo">
+                                            <h5 class="fw-bold pt-1">Sapato Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sapatos festivos/pexels-pixabay-267301.jpg" alt="Sapato festivo">
+                                            <h5 class="fw-bold pt-1">Sapato Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sapatos festivos/pexels-ahmed-anwar-1122605.jpg" alt="Sapato festivo">
+                                            <h5 class="fw-bold pt-1">Sapato Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sapatos festivos/pexels-lukas-292999.jpg" alt="Sapato festivo">
+                                            <h5 class="fw-bold pt-1">Sapato Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sapatos festivos/pexels-pavel-danilyuk-7119090.jpg" alt="Sapato festivo">
+                                            <h5 class="fw-bold pt-1">Sapato Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sapatos festivos/pexels-pixabay-267301.jpg" alt="Sapato festivo">
+                                            <h5 class="fw-bold pt-1">Sapato Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="sneakers">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sneakers/pexels-bùi-huy-1750045.jpg" alt="Sneakers bonitos">
+                                            <h5 class="fw-bold pt-1">Sneakers Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sneakers/pexels-jordan-hyde-1032110.jpg" alt="Sneakers bonitos">
+                                            <h5 class="fw-bold pt-1">Sneakers Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sneakers/pexels-jordan-hyde-1070360.jpg" alt="Sneakers bonitos">
+                                            <h5 class="fw-bold pt-1">Sneakers Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sneakers/pexels-kaique-rocha-48262.jpg" alt="Sneakers bonitos">
+                                            <h5 class="fw-bold pt-1">Sneakers Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sneakers/pexels-bùi-huy-1750045.jpg" alt="Sneakers bonitos">
+                                            <h5 class="fw-bold pt-1">Sneakers Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sneakers/pexels-jordan-hyde-1032110.jpg" alt="Sneakers bonitos">
+                                            <h5 class="fw-bold pt-1">Sneakers Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sneakers/pexels-jordan-hyde-1070360.jpg" alt="Sneakers bonitos">
+                                            <h5 class="fw-bold pt-1">Sneakers Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/sneakers/pexels-kaique-rocha-48262.jpg" alt="Sneakers bonitos">
+                                            <h5 class="fw-bold pt-1">Sneakers Lindo</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="salto-alto">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/produtos/salto alto/pexels-elegance-nairobi-3389419.jpg" alt="Foto salto alto">
+                                            <h5 class="fw-bold pt-1">Salto Alto</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/produtos/salto alto/pexels-ihsan-adityawarman-1445696.jpg" alt="Foto salto alto">
+                                            <h5 class="fw-bold pt-1">Salto Alto</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/produtos/salto alto/pexels-monicore-134064.jpg" alt="Foto salto alto">
+                                            <h5 class="fw-bold pt-1">Salto Alto</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/produtos/salto alto/pexels-rene-asmussen-3167257.jpg" alt="Foto salto alto">
+                                            <h5 class="fw-bold pt-1">Salto Alto</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/produtos/salto alto/pexels-elegance-nairobi-3389419.jpg" alt="Foto salto alto">
+                                            <h5 class="fw-bold pt-1">Salto Alto</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/produtos/salto alto/pexels-ihsan-adityawarman-1445696.jpg" alt="Foto salto alto">
+                                            <h5 class="fw-bold pt-1">Salto Alto</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/produtos/salto alto/pexels-monicore-134064.jpg" alt="Foto salto alto">
+                                            <h5 class="fw-bold pt-1">Salto Alto</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/produtos/salto alto/pexels-rene-asmussen-3167257.jpg" alt="Foto salto alto">
+                                            <h5 class="fw-bold pt-1">Salto Alto</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="chinelos">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/chinelos/pexels-jefferson-lucena-10153223.jpg" alt="Foto Chinelos">
+                                            <h5 class="fw-bold pt-1">Chinelos Confortaveis</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/chinelos/pexels-larry-snickers-2607828.jpg" alt="Foto Chinelos">
+                                            <h5 class="fw-bold pt-1">Chinelos Confortaveis</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/chinelos/pexels-nappy-936059.jpg" alt="Foto Chinelos">
+                                            <h5 class="fw-bold pt-1">Chinelos Confortaveis</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/chinelos/pexels-rdne-stock-project-8455817.jpg" alt="Foto Chinelos">
+                                            <h5 class="fw-bold pt-1">Chinelos Confortaveis</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/chinelos/pexels-jefferson-lucena-10153223.jpg" alt="Foto Chinelos">
+                                            <h5 class="fw-bold pt-1">Chinelos Confortaveis</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/chinelos/pexels-larry-snickers-2607828.jpg" alt="Foto Chinelos">
+                                            <h5 class="fw-bold pt-1">Chinelos Confortaveis</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/chinelos/pexels-nappy-936059.jpg" alt="Foto Chinelos">
+                                            <h5 class="fw-bold pt-1">Chinelos Confortaveis</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="images/produtos/chinelos/pexels-rdne-stock-project-8455817.jpg" alt="Foto Chinelos">
+                                            <h5 class="fw-bold pt-1">Chinelos Confortaveis</h5>
+                                            <p>
+                                                Descrição do produto a venda, muito detalhada, informatizada
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="pt-5 pb-5">
+                <div class="container" id="contatos">
+                    <div class="row">
+                        <h2 class="title-text text-center">Contatos</h2>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold title-text">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control" placeholder="Alfredo Jorge" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold title-text">Seu email</label>
+                                    <input type="email" id="email" class="form-control" placeholder="exemplo@gmail.com" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold title-text">Seu telefone (opcional)</label>
+                                    <input type="tel" id="telefone" class="form-control">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="mensagem" class="form-label fw-bold title-text">Sua mensagem</label>
+                                    <textarea rows="5" class="form-control" id="mensagem" placeholder="Mensagem" required></textarea>
+                                </div>
+                                <button id="btn" type="submit" class="btn fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="fs-4">
+                                    <i class="bi bi-hand-thumbs-up-fill links"></i>
+                                    Redes Sociais
+                                </h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook links"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram links"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp links"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="fs-4">
+                                    <i class="bi bi-cursor-fill links"></i>
+                                    Endereço
+                                </h3>
+                                <p>
+                                    Rua do endereço imaginario nº 123, CuckoLand - Narnia
+                                </p>
+                            </div>
+                            <div id="map-google" class="mapa">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5877.884041551507!2d-6.59826!3d42.556524!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd30ba8a9a799225%3A0xe2c6a998013b07d9!2sEntrada%20a%20Narnia!5e0!3m2!1sen!2spt!4v1696733273139!5m2!1sen!2spt" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="bg-dark text-center text-white">
+        <div class="p-2">
+            © 2023 Copyright SapatosLinods, Inc. Todos direitos reservados.
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./jscode/jquery.mask.js"></script>
+    <script src="./jscode/main.js"></script>
+</body>
+</html>
